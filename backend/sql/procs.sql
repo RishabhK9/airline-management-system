@@ -135,7 +135,9 @@ BEGIN
 END //
 
 -- Simulation cycle
-CREATE PROCEDURE simulation_cycle()
+CREATE PROCEDURE simulation_cycle2(
+    IN ip_call BOOLEAN
+)
 BEGIN
     -- This is a placeholder for simulation logic
     -- In a real implementation, this would handle various simulation tasks
